@@ -160,45 +160,39 @@
 
 <section class="section hero">
   <div class="container is-max-desktop">
+    <!-- Title Section -->
     <div class="columns is-centered has-text-centered">
-      <div class="column" style="padding-bottom: 18px;">
-        <h2 class="title is-3"><font color="#1155cc">How about current LLMs-powered Multi-agent's capabilities </font></h2>
+      <div class="column">
+        <h2 class="title is-3"><font color="#1155cc">How about current LLMs-powered Multi-agent's capabilities</font></h2>
       </div>
     </div>
   </div>
+
   <div class="container">
-    <div class="columns">
-      <div class="column is-one-fifths">
-        <p class="smaller-text" >
-          </br></br>
-          <div style="padding-top: 8px;">
-            Step ①: Training the neural network for score prediction.<br>
-          </div>
-          <div style="padding-top: 8px;">
-            Step ②: Selecting the next soft prompt using the NeuralUCB algorithm.<br>
-          </div>
-          <div style="padding-top: 8px;">
-            Step ③: Generating the instruction using a white-box LLM.<br>
-          </div>
-          <div style="padding-top: 8px;">
-            Step ④: Predicting the label for a validation dataset using black-box LLM using the generated instruction.<br>
-          </div>
-          <div style="padding-top: 8px;">
-            Step ⑤: Evaluating the predicted results (i.e., the performance of the instruction).<br>
-          </div>
-          <div style="padding-top: 8px;">
-            Step ⑥: Extracting the hidden representation from the white-box LLM for the instruction. Adding the hidden representation and the evaluated score to the dataset which is used to train the neural network.
-          </div>
-        </p>
-      </div>
+    <!-- Image Section -->
+    <div class="columns is-centered">
       <div class="column is-three-fifths">
         <div class="item">
-          <img src="static/images/instinct.gif" alt="GIF">
+          <!-- Replace with an image in supported format (e.g., JPG, PNG) -->
+          <img src="static/imag/rader.jpg" alt="JPG">
         </div>
+      </div>
+    </div>
+
+    <!-- Text Section -->
+    <div class="columns is-centered">
+      <div class="column is-three-fifths">
+        <p class="smaller-text">
+          <div style="padding-top: 8px;">
+            The radar diagram on the left illustrates the performance of LLMs across various metrics. In the figure, "-T" denotes "-turbo", and "+P" denotes that the model has been augmented with PGM. The bar chart on the right denotes the area occupied in the radar diagram and the red line plots the average winning rates in all games. It is clearly observed that the larger the area occupied in the radar diagram, the higher the winning rates are. This justifies that the proposed evaluation metrics are good to reflect the capability of the language models. For more details please refer to Sec.<br>
+          </div>
+          <!-- Other Steps -->
+        </p>
       </div>
     </div>
   </div>
 </section>
+
 
 <hr class="solid">
 
